@@ -1,0 +1,31 @@
+$title-color: rgba(160, 176, 185, 1);
+$title-value-color: rgba(74, 74, 74, 1);
+
+.wrapper-fly-info {
+	display: flex;
+	width: 462px;
+	height: 39px;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.title {
+	color: $title-color;
+	font-family: "Open Sans";
+	font-size: 12px;
+	margin: 0;
+}
+
+.title-value {
+	color: $title-value-color;
+	font-family: "Open Sans";
+	font-size: 14px;
+	margin: 0;
+}
+
+.wrapper-title {
+	text-align: left;
+	width: 100px;
+}

@@ -1,0 +1,30 @@
+$price-color: rgba(33, 150, 243, 1);
+
+.wrapper-card-item {
+	width: 502px;
+	height: 184px;
+	box-shadow: 0 1px 5px 1px rgba(88, 88, 88, 0.158);
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.price-block {
+	width: 462px;
+	height: 36px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.price {
+	font-family: "Open Sans";
+	font-size: 24px;
+	color: $price-color;
+	margin-right: auto;
+}
+
+.wrapper-card-item:hover {
+	box-shadow: 0 4px 15px 1px rgba(88, 88, 88, 0.225);
+}
